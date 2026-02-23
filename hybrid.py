@@ -26,7 +26,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 st.markdown('<div class="mobile-hint">📱 MENU IMPOSTAZIONI: Clicca l\'icona &equiv; o la freccia &gt; in alto a sinistra</div>', unsafe_allow_html=True)
-st.title("🛡️ Rugni Debt Management")
+st.title("🛡️ Rughi Debt Management")
 
 # --- SIDEBAR ---
 st.sidebar.markdown("### ⚙️ Configurazione")
@@ -210,3 +210,4 @@ with tab2:
         st.info(f"📉 Residuo: {max(0.0, res_v):,.2f} €")
         if res_v > 0:
             st.warning(f"👉 Mancano ancora **{int(rate_f) + 1} rate** da **{i_f} €**")
+
